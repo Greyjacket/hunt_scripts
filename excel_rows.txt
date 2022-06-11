@@ -1,0 +1,99 @@
+PropertyAttyBuyer/
+Seller
+Other AgentOther AttyPurchase PriceUnnamed: 6Contract
+DateCOS Sent/EffectiveAttorney ApprovalUnnamed: 10Home
+InspectionDeposit
+ReceivedDeal
+SheetSOLD 
+RiderMortgage Application DateAppraisal DateMortgage CommitmentUnnamed: 18Clear to
+CloseRate Lock
+ExpirationStar/ Utlity
+EmailFWT
+DateClose DateUnnamed: 24Update
+COIGiftPick UpUnnamed: 28ZillowUnnamed: 30Unnamed: 31Case
+ClosedPostcards
+
+Unnamed: 34
+
+Property:
+    Address: string
+    Inspection: datetime
+
+Attorney:
+    Name:
+
+Buyer/Seller
+    Buyer?
+
+Other Agent
+    Name:
+
+Purchase_Price
+    price: float
+
+Concessions
+    price: float
+
+Contract_Date
+    datetime
+
+Contract of Sale_Sent
+    datetime
+
+Attorney Approval
+    seller: datetime
+    buyer: datetime
+
+Deposit Received
+    datetime
+
+Deal Sheet
+    datetime
+
+Sold Rider
+    datetime
+
+Mortgage Application Date
+    datetime
+
+Appraisal Date:
+    datetime
+
+Mortgage Commitment:
+    contract: datetime
+    actual: datetime
+
+Clear to Closed
+    datetime
+
+Rate Lock Expiration
+    datetime
+
+Utility Email
+    datetime
+
+FWT
+    datetime | None
+
+Close Date:
+    contract: datetime
+    actual: datetime
+
+Update COI:
+    datetime
+
+PickUp:
+    sign: datetime
+    lockbox: datetime
+
+Zillow:
+    email1: string
+    email2: string
+    past_sale: datetime
+
+Case_Closed:
+    datetime
+
+Postcards:
+    just_listed: datetime
+    just_sold: datetime

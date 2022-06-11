@@ -5,8 +5,17 @@ file_errors_location = 'c2c.xlsx'
 df = pd.read_excel(file_errors_location)
 
 for row in df.iterrows():
-    print(row)
+    #print(row)
     pass
+
+test = df.columns
+
+with open('excel_rows.txt', 'a') as f:
+    for col in df.columns:
+        #print((col))
+        f.write(col)
+
+
 
 # Give the location of the file
 # loc = ("c2c.xlsx")
